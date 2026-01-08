@@ -1,0 +1,98 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f7f7fb;
+  color: #1f2937;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  padding: 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.login-form {
+  max-width: 360px;
+  margin: 80px auto;
+  display: grid;
+  gap: 16px;
+}
+
+.login-form input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.login-form button {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #111827;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.column {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 300px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.column-header {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.deal-card {
+  background: #f3f4f6;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.deal-amount {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.status {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.logout {
+  border: 1px solid #111827;
+  background: transparent;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
